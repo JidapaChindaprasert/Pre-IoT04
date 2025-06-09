@@ -6,15 +6,17 @@ void twenty(){
 	scanf("%d", &num1);
 	printf("ans = %d",num1+num2);
 }
-void twentyone(){
-	char num1[] = "35";
-	int num2 = 34;
-	int ans = num1-num2;
-}
-void twentythree(){
-	printf(“แU๑ชoว์ตี้”);
-	printf(“\n๑ูLn๐เ๓้นหn้าrถllh่ Ln๐เ๓้นโช๐์ฅnIIn่\nLn๐เ๓้นโชw์เwื่๐nหn้าlวtี”);
-}
+
+// void twentyone(){
+// 	char num1[] = "35";
+// 	int num2 = 34;
+// 	int ans = num1-num2;
+// }
+
+// void twentythree(){
+// 	printf(“แU๑ชoว์ตี้”);
+// 	printf(“\n๑ูLn๐เ๓้นหn้าrถllh่ Ln๐เ๓้นโช๐์ฅnIIn่\nLn๐เ๓้นโชw์เwื่๐nหn้าlวtี”);
+// }
 
 void foutyone() {
 	int a = 5;
@@ -52,22 +54,28 @@ void fourtyfive() {
 	return ;
 }
 
-void fourtysix() {
-	printf("ก๋อมแก๋ม");
-	printf("คนแก่");
-	return ;
-}
+// void fourtysix() {
+// 	printf("ก๋อมแก๋ม");
+// 	printf("คนแก่");
+// 	return ;
+// }
 
-void fourtyseven() {
-	printf("ทุกคนมีแม่คนเดียว");
-	printf("\nโกโก้");
-	return ;
-}
+// void fourtyseven() {
+// 	printf("ทุกคนมีแม่คนเดียว");
+// 	printf("\nโกโก้");
+// 	return ;
+// }
 
 void fourtyeight() {
 	int x = 7.5;
 	printf("%d",x);
 	return ;
+}
+
+void fiftyfive()
+{
+	float a = 47.801894 ;
+    printf("%.3f",a);
 }
 
 int main() 
@@ -82,5 +90,16 @@ int main()
 	// fourtysix();
 	// fourtyseven();
 	// fourtyeight();
+	fiftyfive();
 	return 0;
 }
+
+
+//ตัวอย่าง
+//อันนี้คือการ comment บรรทัดเดียว
+แบบนี้ไม่ comment
+
+/* อันนี้ comment หลายบรรทัด
+อันนี้ยังคง comment อยู่
+บรรทัดนี้ก็ comment
+*/ จะเป็น comment จนกว่าจะอยู่นอก */
